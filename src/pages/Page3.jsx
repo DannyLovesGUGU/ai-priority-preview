@@ -37,7 +37,7 @@ const Page3 = ({ onNext }) => {
 
         <div className="z-10 flex-grow flex flex-col">
           <header className="mb-10">
-            <img src="/assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
+            <img src="assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
             <div className="inline-block px-3 py-1 bg-slate-900 text-white text-xs font-bold tracking-widest uppercase mb-4 rounded">
               Step 03: Practical Case Study
             </div>
