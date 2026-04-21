@@ -22,7 +22,7 @@ const Page7 = ({ onNext }) => {
         <div className="z-10 flex-grow flex flex-col">
           {/* 區塊1：標題 + 副標 */}
           <header className="mb-7">
-            <img src="/assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
+            <img src="assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
             <div className="inline-block px-3 py-1 bg-slate-900 text-white text-xs font-bold tracking-widest uppercase mb-4 rounded">
               Step 07: Workflow Extension
             </div>
