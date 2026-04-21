@@ -27,7 +27,7 @@ const App = () => {
       <div className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
         <div className="max-w-[800px] mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/assets/brand/header-logo.png" alt="GUGU School Logo" className="h-7 w-auto" />
+             <img src="assets/brand/header-logo.png" alt='GUGU School Logo' className='h-7 w-auto' />
 
           </div>
           <div className="flex flex-wrap gap-2 justify-end">
