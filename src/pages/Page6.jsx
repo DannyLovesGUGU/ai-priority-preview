@@ -1,9 +1,9 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, ImagePlus, Layers3, PenTool, Ratio, Sparkles } from 'lucide-react';
 
-const imageBefore = '/assets/collagen/collagen-02.png';
-const imageSpecGrid = '/assets/collagen/collagen-01.png';
-const imageFinal = '/assets/collagen/collagen-04-reference.png';
+const imageBefore = 'assets/collagen/collagen-02.png';
+const imageSpecGrid = 'assets/collagen/collagen-01.png';
+const imageFinal = 'assets/collagen/collagen-04-reference.png';
 
 const Page6 = ({ onNext }) => {
   return (
@@ -13,7 +13,7 @@ const Page6 = ({ onNext }) => {
 
         <div className="z-10 flex-grow flex flex-col">
           <header className="mb-6">
-            <img src="/assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
+            <img src="assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
             <div className="inline-block px-3 py-1 bg-orange-500 text-white text-xs font-bold tracking-widest uppercase mb-4 rounded">
               Step 06: Gemini Case
             </div>
