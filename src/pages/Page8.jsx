@@ -4,11 +4,11 @@ import { BriefcaseBusiness, GraduationCap, Network } from 'lucide-react';
 const departments = ['法務', '財務', '分析', '開發', '行銷', '專案管理', '客戶溝通', '文書整理', '會議與行程安排'];
 
 const agentTeam = [
-  { name: 'Jarvis', role: '總控協調 / 工作分派', image: '/assets/office/agents/jarvis-main-working.png' },
-  { name: 'Turing', role: '開發與技術落地', image: '/assets/office/agents/turing-dev-working.png' },
-  { name: 'Bond', role: '執行追蹤與流程銜接', image: '/assets/office/agents/bond-working.png' },
-  { name: 'The Bard', role: '內容與文案生成', image: '/assets/office/agents/the-bard-content-working.png' },
-  { name: 'Marco Polo', role: '研究搜尋與資料彙整', image: '/assets/office/agents/marco-polo-seeking-working.png' },
+  { name: 'Jarvis', role: '總控協調 / 工作分派', image: 'assets/office/agents/jarvis-main-working.png' },
+  { name: 'Turing', role: '開發與技術落地', image: 'assets/office/agents/turing-dev-working.png' },
+  { name: 'Bond', role: '執行追蹤與流程銜接', image: 'assets/office/agents/bond-working.png' },
+  { name: 'The Bard', role: '內容與文案生成', image: 'assets/office/agents/the-bard-content-working.png' },
+  { name: 'Marco Polo', role: '研究搜尋與資料彙整', image: 'assets/office/agents/marco-polo-seeking-working.png' },
 ];
 
 const courseMap = [
@@ -27,7 +27,7 @@ const Page8 = () => {
 
         <div className="z-10 flex-grow flex flex-col">
           <header className="mb-6">
-            <img src="/assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
+            <img src="assets/brand/header-logo.png" alt="GUGU School Logo" className="h-10 w-auto mb-6" />
             <div className="inline-block px-3 py-1 bg-slate-900 text-white text-xs font-bold tracking-widest uppercase mb-4 rounded">
               Step 08: AI Agent Office
             </div>
@@ -64,7 +64,7 @@ const Page8 = () => {
             </div>
 
             <div className="bg-slate-900 rounded-2xl p-3 border border-slate-700 mb-3">
-              <img src="/assets/office/office-4200-cropped.png" alt="OpenClaw Office" className="w-full h-56 object-cover object-top rounded-xl border border-slate-700" />
+              <img src="assets/office/office-4200-cropped.png" alt="OpenClaw Office" className="w-full h-56 object-cover object-top rounded-xl border border-slate-700" />
             </div>
 
             <div className="grid grid-cols-5 gap-2">
